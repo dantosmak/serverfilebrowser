@@ -131,7 +131,7 @@
                                             );
                                             //checks if the keys exists in the array... more file extensions can be added in the array
                                             if(array_key_exists($ext,$arr)){   //former if ($ext == php || $ext == html){
-                                            $list .= '<li class="file ext_' . $ext . ' text-left"><a href='.$as. htmlentities( $file ) .' target="_blank">' . htmlentities( $file ) . '</a></li>';
+                                            $list .= '<li class="file ext_' . $ext . ' text-left"><a href='.htmlentities( $file ) .' target="_blank">' . htmlentities( $file ) . '</a></li>';
                                             }
                                         }
                                     }
